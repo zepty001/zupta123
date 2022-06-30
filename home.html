@@ -37,10 +37,10 @@
 
 <body>
 
-<div id="splashscreen">
+<!-- <div id="splashscreen">
         <img class="splash-image" src="loading.gif"><br><br><br>
         <p class="loading">Loading site...</p>
-    </div>
+    </div> -->
 	
     <div style="display: none; width:100%; height:100%; position:fixed; background:#000000; opacity: .8; filter:alpha(opacity=0.8); z-index:999998;" id="exitpopup_bg"></div>
     <div id="exitpopup" class ="door_few">
@@ -92,7 +92,7 @@
                 }
             </style>
             <ul id="bullet1_2" class="responsiveClass bullet1_2 door_few">
-                <li dir="auto"><b>Runs On:</b> Windows<sup>®</sup> 7, 8, 10, Vista<sup>TM</sup>, XP<sup>TM</sup> Operating Systems
+                <li dir="auto"><b>Runs On:</b> Windows<sup>®</sup> XP, 7, 8, 10, 11, Vista<sup>TM</sup>, XP<sup>TM</sup> Operating Systems
                 </li>
                 <li dir="auto"><b>Requirements:</b> None<br></li>
             </ul>
@@ -161,7 +161,8 @@
     </div>
 	
 		<script>
-        $('#splashscreen').delay(100).fadeOut('slow', complete);
+            complete()
+        // $('#splashscreen').fadeOut('fast');
 
          function complete() {
             $('html,body').css('overflow', 'auto');
