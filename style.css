@@ -1579,11 +1579,11 @@ div.textCoords2_5 {
 }
 
 .quiz-button {
-    background-color: #3896e0;
-    border-color: #3896e0;
-    background-image: -webkit-linear-gradient(top, #3896e0 0%, #3896e0 100%);
-    background-image: -o-linear-gradient(top, #3896e0 0%, #3896e0 100%);
-    background-image: linear-gradient(to bottom, #3896e0 0%, #3896e0 100%);
+    background-color: #99cc33;
+    border-color: #99cc33;
+    background-image: -webkit-linear-gradient(top, #99cc33 0%, #99cc33 100%);
+    background-image: -o-linear-gradient(top, #99cc33 0%, #99cc33 100%);
+    background-image: linear-gradient(to bottom, #99cc33 0%, #99cc33 100%);
     background-repeat: repeat-x;
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#FFFEA338', endColorstr='#FFEB7A1A', GradientType=0);
     border: 0 !important;
